@@ -1,10 +1,5 @@
 <?php
 
-header("Location: https://github.com/", true, 302);
-
-exit;
-
-?>
 <!DOCTYPE html>
 
 <html>
@@ -22,4 +17,10 @@ exit;
     </body>
 
 </html>
+    
+    header("Location: https://github.com/", true, 302)
+    
+    exit;
+
+?>
 
