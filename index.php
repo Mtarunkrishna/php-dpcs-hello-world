@@ -1,3 +1,10 @@
+<?php
+
+header("Location: https://github.com/", true, 302);
+
+exit;
+
+?>
 <!DOCTYPE html>
 
 <html>
@@ -16,10 +23,3 @@
 
 </html>
 
-<?php
-
-header('Location: https://github.com/');
-
-exit;
-
-?>
